@@ -1,0 +1,128 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+.holder{
+    width: 960px;
+    margin: 0 auto;
+}
+/* ESTILOS HEADER */
+
+header{
+    background-color: black;
+    padding: 1em 0;
+}
+
+header h1{
+    color: white;
+    font-size: 2.5em;
+    font-style:italic ;
+    font-weight:100;
+    display: inline-block;
+    margin:0.5em ;
+    /* position: relative; */
+    left: 100px;
+    bottom: 30px;
+}
+
+/* ESTILOS NAV */
+
+nav{
+    background-color: rgb(38, 181, 38);
+    margin-bottom: 2em;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline-block;
+    width: 13%;
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.2em 0.4em ;
+    transition: all 0.2s ease;
+}
+nav ul li a:hover {
+    background-color:rgba(0,0,0,0.3 );
+    
+}
+nav ul li a.activo{
+    color: rgb(14, 67, 67);
+}
+
+/* ESTILOS MAIN */
+
+h2{
+    color: chocolate;
+    font-weight: 400;
+    margin:0 0 1em ;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+
+.homeimg{
+    margin-bottom: 1.5em;
+}
+.homeimg.img{
+    width: 100%;
+}
+.columnas{
+    overflow: hidden;
+}
+.bienvenidos , .testimonios{
+box-sizing: border-box;
+}
+.bienvenidos{
+    width: 75%;
+    padding-right:2em ;
+}
+.bienvenidos h2{
+    font-size: 1.5em;
+}
+.bienvenidos.p{
+text-align: justify;
+}
+.testimonios{
+    width: 25%;
+}
+
+.testimonio{
+    background-color: rgb(125, 190, 125);
+    padding: 1em;
+}
+.testimonio .cita{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.4em;
+    display: block;
+}
+
+.testimonio .autor{
+    font-size:0.7em ;
+    text-align: center;
+    margin: 1em 0;
+    display: block;
+}
+
+/* ESTILOS FOOTER */
+footer{
+    background-color: #333;
+    clear: both;
+    color: white;
+    padding: 1em 0;
+    margin-top: 2em;
+    text-align: center;
+}
